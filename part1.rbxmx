@@ -99,5 +99,37 @@
 				<Z>2</Z>
 			</Vector3>
 		</Properties>
+		<Item class="Script" referent="RBXE037F136867C4872B9F295C2146DDB87">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<bool name="Disabled">false</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">Script</string>
+				<token name="RunContext">0</token>
+				<string name="ScriptGuid">{08B31FA8-D570-4A5D-BDA5-BE59A202B307}</string>
+				<ProtectedString name="Source"><![CDATA[
+button = game.Workspace.Part
+function gravity()
+	game.Workspace.Gravity = 1
+end
+button.ClickDetector.MouseClick:Connect(gravity)]]></ProtectedString>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+		<Item class="ClickDetector" referent="RBX0ABB35D2C48E49199233BA5F06DA7925">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<Content name="CursorIcon"><null></null></Content>
+				<bool name="DefinesCapabilities">false</bool>
+				<float name="MaxActivationDistance">32</float>
+				<string name="Name">ClickDetector</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
 	</Item>
 </roblox>
